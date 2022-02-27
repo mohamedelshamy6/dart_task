@@ -8,7 +8,6 @@ void main(List<String> args) {
   print("How much money do you receive per hour ? ");
   double money_hour = double.parse(stdin.readLineSync()!);
   double salary = money_hour * hours_month;
-      print("Your number is $employee_number . ");
-     print("Your salary is $salary\$ per month .  ");
- 
+  print("Number =  $employee_number . ");
+  print("Salary = U\$ $salary .  ");
 }
