@@ -9,5 +9,5 @@ void main(List<String> args) {
   double money_hour = double.parse(stdin.readLineSync()!);
   double salary = money_hour * hours_month;
   print("Number =  $employee_number . ");
-  print("Salary = U\$ $salary .  ");
+  print("Salary = U\$ ${salary.toStringAsFixed(2)} .  ");
 }
