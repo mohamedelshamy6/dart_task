@@ -11,6 +11,6 @@ void main(List<String> args) {
   else {
     double final_distance = hours_spent * speed;
     double fuels_needed = final_distance / distance_liter;
-    print("You will need $fuels_needed liters to drive $final_distance km . ");
+    print("You will need ${fuels_needed.toStringAsFixed(3)} liters to drive $final_distance km . ");
   }
 }
